@@ -60,6 +60,13 @@ class Simple {
                 dayType = "No day";
                 break;
         }
+        for (int j = 1; j<=10; j++) {
+            for (int k = 1; k<= j; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
         System.out.println("Today is " + dayString + "and its a " + dayType);
         System.out.println("Hello Java");
         System.out.println("Learning Java Programming");
