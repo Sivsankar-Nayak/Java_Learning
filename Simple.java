@@ -38,7 +38,29 @@ class Simple {
                 dayString = "No day";
                 break;
         }
-        System.out.println("Today is " + dayString);
+        switch (day) {
+            case 1:
+
+            case 2:
+
+            case 3:
+
+            case 4:
+
+            case 5:
+                dayType = "Weekday";
+                break;
+            case 6:
+
+            case 7:
+                dayType = "Weekend";
+                break;
+
+            default:
+                dayType = "No day";
+                break;
+        }
+        System.out.println("Today is " + dayString + "and its a " + dayType);
         System.out.println("Hello Java");
         System.out.println("Learning Java Programming");
 
